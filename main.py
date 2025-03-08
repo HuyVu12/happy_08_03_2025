@@ -17,6 +17,7 @@ st.subheader("🎁 Nhấn vào hộp quà để mở bất ngờ!")
 
 if st.button("🎁 Mở Quà"):
     st.write("#### Vẽ hình mẹ bằng Fourier Drawing nè :))")
+    st.write('''#### Video hơi giật do vừa vẽ vừa quay á :'<''')
     video_path = "./videos/v01.mp4"
     st.video(video_path)
 
