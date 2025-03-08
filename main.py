@@ -1,7 +1,7 @@
 import streamlit as st
 from streamlit_extras.let_it_rain import rain
 
-st.set_page_config(page_title="Chúc mừng 8/3", page_icon="🌸", layout="centered")
+st.set_page_config(page_title="Happy Women Day with Mẹ Nhu và Hai", page_icon="🌸", layout="centered")
 
 rain(
     emoji="🌸", 
