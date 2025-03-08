@@ -10,14 +10,14 @@ rain(
     animation_length="infinite",
 )
 
-st.markdown("<div class='center'><h1>💖 Chúc mừng Ngày Quốc tế Phụ nữ 8/3 💖</h1></div>", unsafe_allow_html=True)
+st.write("## 💖 Chúc mừng Ngày Quốc tế Phụ nữ 8/3 💖")
 st.subheader("Gửi Mẹ Nhu và chị Hai yêu quý!")
 
 st.subheader("🎁 Nhấn vào hộp quà để mở bất ngờ!")
 
 if st.button("🎁 Mở Quà"):
-    st.write("#### Vẽ hình mẹ bằng Fourier Drawing nè :))")
-    st.write('''#### Video hơi giật do vừa vẽ vừa quay á :'<''')
+    st.write("##### Vẽ hình mẹ bằng Fourier Drawing nè :))")
+    st.write('''###### Video hơi giật do vừa vẽ vừa quay á :'<''')
     video_path = "./videos/v01.mp4"
     st.video(video_path)
 
@@ -45,14 +45,14 @@ if st.button("🎁 Mở Quà"):
     st.subheader("🌼 Chúc Hai yêu quý 😻")
     st.write(
         """
-        **Chị yêu dấu,**  
+        **Chị Hai yêu dấu,**  
         Chúc chị có một ngày 8/3 thật ý nghĩa!  
         Mong chị luôn vui vẻ, thành công trong công việc và tràn đầy hạnh phúc.  
         Cảm ơn chị vì luôn là một người chị tuyệt vời, luôn yêu thương và giúp đỡ em! 💕  
         """
     )
     st.write("------")
-    st.subheader("👾 P/s: Do trục trặc kỹ thuật nên hoàn thành hơi trễ nên sorry hai với mẹ nhiều :'<")
+    st.write(" #### 👾 P/s: Do trục trặc kỹ thuật nên hoàn thành hơi trễ nên sorry hai với mẹ nhiều :'<")
     st.write(
         """
         Cụ thể là trễ khoảng 20h42' với top lí do sau: \n
